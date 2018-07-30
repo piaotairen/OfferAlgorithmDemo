@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		47A5F7C5210EB99500F0025E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F7C4210EB99500F0025E /* main.swift */; };
+		47A5F822210EBE0500F0025E /* Lesson001.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F821210EBE0500F0025E /* Lesson001.swift */; };
+		47A5F825210EBEE800F0025E /* Lesson002.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F824210EBEE800F0025E /* Lesson002.swift */; };
+		47A5F828210EBEF400F0025E /* Lesson003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F827210EBEF400F0025E /* Lesson003.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		47A5F7C1210EB99500F0025E /* OfferAlgorithmDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OfferAlgorithmDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A5F7C4210EB99500F0025E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		47A5F820210EBDB000F0025E /* 二元查找树的后序遍历.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "二元查找树的后序遍历.md"; sourceTree = "<group>"; };
+		47A5F821210EBE0500F0025E /* Lesson001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson001.swift; sourceTree = "<group>"; };
+		47A5F823210EBEE800F0025E /* 翻转句子中单词的顺序.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "翻转句子中单词的顺序.md"; sourceTree = "<group>"; };
+		47A5F824210EBEE800F0025E /* Lesson002.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson002.swift; sourceTree = "<group>"; };
+		47A5F826210EBEF400F0025E /* 求1+2+...+n.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "求1+2+...+n.md"; sourceTree = "<group>"; };
+		47A5F827210EBEF400F0025E /* Lesson003.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson003.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +67,694 @@
 			isa = PBXGroup;
 			children = (
 				47A5F7C4210EB99500F0025E /* main.swift */,
+				47A5F7CB210EB9D200F0025E /* Lesson 001 */,
+				47A5F7CC210EBA1D00F0025E /* Lesson 002 */,
+				47A5F7CD210EBA3500F0025E /* Lesson 003 */,
+				47A5F7D8210EBA5700F0025E /* Lesson 004 */,
+				47A5F7D7210EBA5400F0025E /* Lesson 005 */,
+				47A5F7D6210EBA5200F0025E /* Lesson 006 */,
+				47A5F7D5210EBA4F00F0025E /* Lesson 007 */,
+				47A5F7D4210EBA4C00F0025E /* Lesson 008 */,
+				47A5F7D3210EBA4A00F0025E /* Lesson 009 */,
+				47A5F7D2210EBA4800F0025E /* Lesson 010 */,
+				47A5F7D1210EBA4600F0025E /* Lesson 011 */,
+				47A5F7D0210EBA4400F0025E /* Lesson 012 */,
+				47A5F7CF210EBA4200F0025E /* Lesson 013 */,
+				47A5F7CE210EBA4000F0025E /* Lesson 014 */,
+				47A5F7D9210EBAAF00F0025E /* Lesson 015 */,
+				47A5F7DA210EBAB200F0025E /* Lesson 016 */,
+				47A5F7DB210EBAB400F0025E /* Lesson 017 */,
+				47A5F7DC210EBAB700F0025E /* Lesson 018 */,
+				47A5F7DD210EBAB900F0025E /* Lesson 019 */,
+				47A5F7DE210EBABB00F0025E /* Lesson 020 */,
+				47A5F7DF210EBABD00F0025E /* Lesson 021 */,
+				47A5F7E0210EBABF00F0025E /* Lesson 022 */,
+				47A5F7E1210EBAC100F0025E /* Lesson 023 */,
+				47A5F7E2210EBAC300F0025E /* Lesson 024 */,
+				47A5F7E3210EBAC500F0025E /* Lesson 025 */,
+				47A5F7E4210EBAC700F0025E /* Lesson 026 */,
+				47A5F7E5210EBAC900F0025E /* Lesson 027 */,
+				47A5F7E6210EBACB00F0025E /* Lesson 028 */,
+				47A5F7E7210EBACD00F0025E /* Lesson 029 */,
+				47A5F7E8210EBACF00F0025E /* Lesson 030 */,
+				47A5F7E9210EBAD100F0025E /* Lesson 031 */,
+				47A5F7EA210EBAD300F0025E /* Lesson 032 */,
+				47A5F7EB210EBAD500F0025E /* Lesson 033 */,
+				47A5F7EC210EBAD700F0025E /* Lesson 034 */,
+				47A5F7ED210EBAD900F0025E /* Lesson 035 */,
+				47A5F7EE210EBADB00F0025E /* Lesson 036 */,
+				47A5F7EF210EBADD00F0025E /* Lesson 037 */,
+				47A5F7F0210EBADF00F0025E /* Lesson 038 */,
+				47A5F7F1210EBAE100F0025E /* Lesson 039 */,
+				47A5F7F2210EBAE300F0025E /* Lesson 040 */,
+				47A5F7F3210EBAE500F0025E /* Lesson 041 */,
+				47A5F7F4210EBAE700F0025E /* Lesson 042 */,
+				47A5F7F5210EBAE900F0025E /* Lesson 043 */,
+				47A5F81F210EBB3A00F0025E /* Lesson 044 */,
+				47A5F81E210EBB3900F0025E /* Lesson 045 */,
+				47A5F81D210EBB3700F0025E /* Lesson 046 */,
+				47A5F81C210EBB3500F0025E /* Lesson 047 */,
+				47A5F81B210EBB3300F0025E /* Lesson 048 */,
+				47A5F81A210EBB3100F0025E /* Lesson 049 */,
+				47A5F819210EBB2F00F0025E /* Lesson 050 */,
+				47A5F818210EBB2D00F0025E /* Lesson 051 */,
+				47A5F817210EBB2B00F0025E /* Lesson 052 */,
+				47A5F816210EBB2900F0025E /* Lesson 053 */,
+				47A5F815210EBB2700F0025E /* Lesson 054 */,
+				47A5F814210EBB2600F0025E /* Lesson 055 */,
+				47A5F813210EBB2400F0025E /* Lesson 056 */,
+				47A5F812210EBB2200F0025E /* Lesson 057 */,
+				47A5F811210EBB2000F0025E /* Lesson 058 */,
+				47A5F810210EBB1E00F0025E /* Lesson 059 */,
+				47A5F80F210EBB1C00F0025E /* Lesson 060 */,
+				47A5F80E210EBB1A00F0025E /* Lesson 061 */,
+				47A5F80D210EBB1800F0025E /* Lesson 062 */,
+				47A5F80C210EBB1600F0025E /* Lesson 063 */,
+				47A5F80B210EBB1400F0025E /* Lesson 064 */,
+				47A5F80A210EBB1200F0025E /* Lesson 065 */,
+				47A5F809210EBB1000F0025E /* Lesson 066 */,
+				47A5F808210EBB0E00F0025E /* Lesson 067 */,
+				47A5F807210EBB0C00F0025E /* Lesson 068 */,
+				47A5F806210EBB0A00F0025E /* Lesson 069 */,
+				47A5F805210EBB0800F0025E /* Lesson 070 */,
+				47A5F804210EBB0600F0025E /* Lesson 071 */,
+				47A5F803210EBB0500F0025E /* Lesson 072 */,
+				47A5F802210EBB0300F0025E /* Lesson 073 */,
+				47A5F801210EBB0100F0025E /* Lesson 074 */,
+				47A5F800210EBAFF00F0025E /* Lesson 075 */,
+				47A5F7FF210EBAFC00F0025E /* Lesson 076 */,
+				47A5F7FE210EBAFB00F0025E /* Lesson 077 */,
+				47A5F7FD210EBAF900F0025E /* Lesson 078 */,
+				47A5F7FC210EBAF700F0025E /* Lesson 079 */,
+				47A5F7FB210EBAF500F0025E /* Lesson 080 */,
+				47A5F7FA210EBAF400F0025E /* Lesson 081 */,
+				47A5F7F9210EBAF100F0025E /* Lesson 082 */,
+				47A5F7F8210EBAEF00F0025E /* Lesson 083 */,
+				47A5F7F7210EBAED00F0025E /* Lesson 084 */,
+				47A5F7F6210EBAEB00F0025E /* Lesson 085 */,
 			);
 			path = OfferAlgorithmDemo;
+			sourceTree = "<group>";
+		};
+		47A5F7CB210EB9D200F0025E /* Lesson 001 */ = {
+			isa = PBXGroup;
+			children = (
+				47A5F820210EBDB000F0025E /* 二元查找树的后序遍历.md */,
+				47A5F821210EBE0500F0025E /* Lesson001.swift */,
+			);
+			path = "Lesson 001";
+			sourceTree = "<group>";
+		};
+		47A5F7CC210EBA1D00F0025E /* Lesson 002 */ = {
+			isa = PBXGroup;
+			children = (
+				47A5F823210EBEE800F0025E /* 翻转句子中单词的顺序.md */,
+				47A5F824210EBEE800F0025E /* Lesson002.swift */,
+			);
+			path = "Lesson 002";
+			sourceTree = "<group>";
+		};
+		47A5F7CD210EBA3500F0025E /* Lesson 003 */ = {
+			isa = PBXGroup;
+			children = (
+				47A5F826210EBEF400F0025E /* 求1+2+...+n.md */,
+				47A5F827210EBEF400F0025E /* Lesson003.swift */,
+			);
+			path = "Lesson 003";
+			sourceTree = "<group>";
+		};
+		47A5F7CE210EBA4000F0025E /* Lesson 014 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 014";
+			sourceTree = "<group>";
+		};
+		47A5F7CF210EBA4200F0025E /* Lesson 013 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 013";
+			sourceTree = "<group>";
+		};
+		47A5F7D0210EBA4400F0025E /* Lesson 012 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 012";
+			sourceTree = "<group>";
+		};
+		47A5F7D1210EBA4600F0025E /* Lesson 011 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 011";
+			sourceTree = "<group>";
+		};
+		47A5F7D2210EBA4800F0025E /* Lesson 010 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 010";
+			sourceTree = "<group>";
+		};
+		47A5F7D3210EBA4A00F0025E /* Lesson 009 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 009";
+			sourceTree = "<group>";
+		};
+		47A5F7D4210EBA4C00F0025E /* Lesson 008 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 008";
+			sourceTree = "<group>";
+		};
+		47A5F7D5210EBA4F00F0025E /* Lesson 007 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 007";
+			sourceTree = "<group>";
+		};
+		47A5F7D6210EBA5200F0025E /* Lesson 006 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 006";
+			sourceTree = "<group>";
+		};
+		47A5F7D7210EBA5400F0025E /* Lesson 005 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 005";
+			sourceTree = "<group>";
+		};
+		47A5F7D8210EBA5700F0025E /* Lesson 004 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 004";
+			sourceTree = "<group>";
+		};
+		47A5F7D9210EBAAF00F0025E /* Lesson 015 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 015";
+			sourceTree = "<group>";
+		};
+		47A5F7DA210EBAB200F0025E /* Lesson 016 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 016";
+			sourceTree = "<group>";
+		};
+		47A5F7DB210EBAB400F0025E /* Lesson 017 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 017";
+			sourceTree = "<group>";
+		};
+		47A5F7DC210EBAB700F0025E /* Lesson 018 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 018";
+			sourceTree = "<group>";
+		};
+		47A5F7DD210EBAB900F0025E /* Lesson 019 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 019";
+			sourceTree = "<group>";
+		};
+		47A5F7DE210EBABB00F0025E /* Lesson 020 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 020";
+			sourceTree = "<group>";
+		};
+		47A5F7DF210EBABD00F0025E /* Lesson 021 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 021";
+			sourceTree = "<group>";
+		};
+		47A5F7E0210EBABF00F0025E /* Lesson 022 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 022";
+			sourceTree = "<group>";
+		};
+		47A5F7E1210EBAC100F0025E /* Lesson 023 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 023";
+			sourceTree = "<group>";
+		};
+		47A5F7E2210EBAC300F0025E /* Lesson 024 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 024";
+			sourceTree = "<group>";
+		};
+		47A5F7E3210EBAC500F0025E /* Lesson 025 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 025";
+			sourceTree = "<group>";
+		};
+		47A5F7E4210EBAC700F0025E /* Lesson 026 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 026";
+			sourceTree = "<group>";
+		};
+		47A5F7E5210EBAC900F0025E /* Lesson 027 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 027";
+			sourceTree = "<group>";
+		};
+		47A5F7E6210EBACB00F0025E /* Lesson 028 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 028";
+			sourceTree = "<group>";
+		};
+		47A5F7E7210EBACD00F0025E /* Lesson 029 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 029";
+			sourceTree = "<group>";
+		};
+		47A5F7E8210EBACF00F0025E /* Lesson 030 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 030";
+			sourceTree = "<group>";
+		};
+		47A5F7E9210EBAD100F0025E /* Lesson 031 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 031";
+			sourceTree = "<group>";
+		};
+		47A5F7EA210EBAD300F0025E /* Lesson 032 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 032";
+			sourceTree = "<group>";
+		};
+		47A5F7EB210EBAD500F0025E /* Lesson 033 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 033";
+			sourceTree = "<group>";
+		};
+		47A5F7EC210EBAD700F0025E /* Lesson 034 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 034";
+			sourceTree = "<group>";
+		};
+		47A5F7ED210EBAD900F0025E /* Lesson 035 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 035";
+			sourceTree = "<group>";
+		};
+		47A5F7EE210EBADB00F0025E /* Lesson 036 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 036";
+			sourceTree = "<group>";
+		};
+		47A5F7EF210EBADD00F0025E /* Lesson 037 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 037";
+			sourceTree = "<group>";
+		};
+		47A5F7F0210EBADF00F0025E /* Lesson 038 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 038";
+			sourceTree = "<group>";
+		};
+		47A5F7F1210EBAE100F0025E /* Lesson 039 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 039";
+			sourceTree = "<group>";
+		};
+		47A5F7F2210EBAE300F0025E /* Lesson 040 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 040";
+			sourceTree = "<group>";
+		};
+		47A5F7F3210EBAE500F0025E /* Lesson 041 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 041";
+			sourceTree = "<group>";
+		};
+		47A5F7F4210EBAE700F0025E /* Lesson 042 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 042";
+			sourceTree = "<group>";
+		};
+		47A5F7F5210EBAE900F0025E /* Lesson 043 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 043";
+			sourceTree = "<group>";
+		};
+		47A5F7F6210EBAEB00F0025E /* Lesson 085 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 085";
+			sourceTree = "<group>";
+		};
+		47A5F7F7210EBAED00F0025E /* Lesson 084 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 084";
+			sourceTree = "<group>";
+		};
+		47A5F7F8210EBAEF00F0025E /* Lesson 083 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 083";
+			sourceTree = "<group>";
+		};
+		47A5F7F9210EBAF100F0025E /* Lesson 082 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 082";
+			sourceTree = "<group>";
+		};
+		47A5F7FA210EBAF400F0025E /* Lesson 081 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 081";
+			sourceTree = "<group>";
+		};
+		47A5F7FB210EBAF500F0025E /* Lesson 080 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 080";
+			sourceTree = "<group>";
+		};
+		47A5F7FC210EBAF700F0025E /* Lesson 079 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 079";
+			sourceTree = "<group>";
+		};
+		47A5F7FD210EBAF900F0025E /* Lesson 078 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 078";
+			sourceTree = "<group>";
+		};
+		47A5F7FE210EBAFB00F0025E /* Lesson 077 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 077";
+			sourceTree = "<group>";
+		};
+		47A5F7FF210EBAFC00F0025E /* Lesson 076 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 076";
+			sourceTree = "<group>";
+		};
+		47A5F800210EBAFF00F0025E /* Lesson 075 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 075";
+			sourceTree = "<group>";
+		};
+		47A5F801210EBB0100F0025E /* Lesson 074 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 074";
+			sourceTree = "<group>";
+		};
+		47A5F802210EBB0300F0025E /* Lesson 073 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 073";
+			sourceTree = "<group>";
+		};
+		47A5F803210EBB0500F0025E /* Lesson 072 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 072";
+			sourceTree = "<group>";
+		};
+		47A5F804210EBB0600F0025E /* Lesson 071 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 071";
+			sourceTree = "<group>";
+		};
+		47A5F805210EBB0800F0025E /* Lesson 070 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 070";
+			sourceTree = "<group>";
+		};
+		47A5F806210EBB0A00F0025E /* Lesson 069 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 069";
+			sourceTree = "<group>";
+		};
+		47A5F807210EBB0C00F0025E /* Lesson 068 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 068";
+			sourceTree = "<group>";
+		};
+		47A5F808210EBB0E00F0025E /* Lesson 067 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 067";
+			sourceTree = "<group>";
+		};
+		47A5F809210EBB1000F0025E /* Lesson 066 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 066";
+			sourceTree = "<group>";
+		};
+		47A5F80A210EBB1200F0025E /* Lesson 065 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 065";
+			sourceTree = "<group>";
+		};
+		47A5F80B210EBB1400F0025E /* Lesson 064 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 064";
+			sourceTree = "<group>";
+		};
+		47A5F80C210EBB1600F0025E /* Lesson 063 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 063";
+			sourceTree = "<group>";
+		};
+		47A5F80D210EBB1800F0025E /* Lesson 062 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 062";
+			sourceTree = "<group>";
+		};
+		47A5F80E210EBB1A00F0025E /* Lesson 061 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 061";
+			sourceTree = "<group>";
+		};
+		47A5F80F210EBB1C00F0025E /* Lesson 060 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 060";
+			sourceTree = "<group>";
+		};
+		47A5F810210EBB1E00F0025E /* Lesson 059 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 059";
+			sourceTree = "<group>";
+		};
+		47A5F811210EBB2000F0025E /* Lesson 058 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 058";
+			sourceTree = "<group>";
+		};
+		47A5F812210EBB2200F0025E /* Lesson 057 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 057";
+			sourceTree = "<group>";
+		};
+		47A5F813210EBB2400F0025E /* Lesson 056 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 056";
+			sourceTree = "<group>";
+		};
+		47A5F814210EBB2600F0025E /* Lesson 055 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 055";
+			sourceTree = "<group>";
+		};
+		47A5F815210EBB2700F0025E /* Lesson 054 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 054";
+			sourceTree = "<group>";
+		};
+		47A5F816210EBB2900F0025E /* Lesson 053 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 053";
+			sourceTree = "<group>";
+		};
+		47A5F817210EBB2B00F0025E /* Lesson 052 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 052";
+			sourceTree = "<group>";
+		};
+		47A5F818210EBB2D00F0025E /* Lesson 051 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 051";
+			sourceTree = "<group>";
+		};
+		47A5F819210EBB2F00F0025E /* Lesson 050 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 050";
+			sourceTree = "<group>";
+		};
+		47A5F81A210EBB3100F0025E /* Lesson 049 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 049";
+			sourceTree = "<group>";
+		};
+		47A5F81B210EBB3300F0025E /* Lesson 048 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 048";
+			sourceTree = "<group>";
+		};
+		47A5F81C210EBB3500F0025E /* Lesson 047 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 047";
+			sourceTree = "<group>";
+		};
+		47A5F81D210EBB3700F0025E /* Lesson 046 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 046";
+			sourceTree = "<group>";
+		};
+		47A5F81E210EBB3900F0025E /* Lesson 045 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 045";
+			sourceTree = "<group>";
+		};
+		47A5F81F210EBB3A00F0025E /* Lesson 044 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 044";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +814,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47A5F825210EBEE800F0025E /* Lesson002.swift in Sources */,
+				47A5F822210EBE0500F0025E /* Lesson001.swift in Sources */,
 				47A5F7C5210EB99500F0025E /* main.swift in Sources */,
+				47A5F828210EBEF400F0025E /* Lesson003.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
