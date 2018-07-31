@@ -11,6 +11,8 @@
 		47A5F822210EBE0500F0025E /* Lesson001.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F821210EBE0500F0025E /* Lesson001.swift */; };
 		47A5F825210EBEE800F0025E /* Lesson002.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F824210EBEE800F0025E /* Lesson002.swift */; };
 		47A5F828210EBEF400F0025E /* Lesson003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F827210EBEF400F0025E /* Lesson003.swift */; };
+		47A5F82B2110465900F0025E /* Lesson004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F82A2110465900F0025E /* Lesson004.swift */; };
+		47A5F82D2110520D00F0025E /* Lesson005.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F82C2110520D00F0025E /* Lesson005.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		47A5F824210EBEE800F0025E /* Lesson002.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson002.swift; sourceTree = "<group>"; };
 		47A5F826210EBEF400F0025E /* 求1+2+...+n.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "求1+2+...+n.md"; sourceTree = "<group>"; };
 		47A5F827210EBEF400F0025E /* Lesson003.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson003.swift; sourceTree = "<group>"; };
+		47A5F8292110464900F0025E /* 经典2Sum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "经典2Sum.md"; sourceTree = "<group>"; };
+		47A5F82A2110465900F0025E /* Lesson004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson004.swift; sourceTree = "<group>"; };
+		47A5F82C2110520D00F0025E /* Lesson005.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson005.swift; sourceTree = "<group>"; };
+		47A5F82E2110524E00F0025E /* 链表Dummy节点和尾插法及快行指针.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表Dummy节点和尾插法及快行指针.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +255,8 @@
 		47A5F7D7210EBA5400F0025E /* Lesson 005 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F82E2110524E00F0025E /* 链表Dummy节点和尾插法及快行指针.md */,
+				47A5F82C2110520D00F0025E /* Lesson005.swift */,
 			);
 			path = "Lesson 005";
 			sourceTree = "<group>";
@@ -256,6 +264,8 @@
 		47A5F7D8210EBA5700F0025E /* Lesson 004 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F8292110464900F0025E /* 经典2Sum.md */,
+				47A5F82A2110465900F0025E /* Lesson004.swift */,
 			);
 			path = "Lesson 004";
 			sourceTree = "<group>";
@@ -815,6 +825,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				47A5F825210EBEE800F0025E /* Lesson002.swift in Sources */,
+				47A5F82D2110520D00F0025E /* Lesson005.swift in Sources */,
+				47A5F82B2110465900F0025E /* Lesson004.swift in Sources */,
 				47A5F822210EBE0500F0025E /* Lesson001.swift in Sources */,
 				47A5F7C5210EB99500F0025E /* main.swift in Sources */,
 				47A5F828210EBEF400F0025E /* Lesson003.swift in Sources */,

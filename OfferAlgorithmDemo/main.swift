@@ -9,3 +9,5 @@
 import Foundation
 
 Lesson001.test()
+
+Lesson002.test()
