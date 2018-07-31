@@ -13,6 +13,7 @@
 		47A5F828210EBEF400F0025E /* Lesson003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F827210EBEF400F0025E /* Lesson003.swift */; };
 		47A5F82B2110465900F0025E /* Lesson004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F82A2110465900F0025E /* Lesson004.swift */; };
 		47A5F82D2110520D00F0025E /* Lesson005.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F82C2110520D00F0025E /* Lesson005.swift */; };
+		47A5F83121106AC200F0025E /* StackAndQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F83021106AC200F0025E /* StackAndQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		47A5F82A2110465900F0025E /* Lesson004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson004.swift; sourceTree = "<group>"; };
 		47A5F82C2110520D00F0025E /* Lesson005.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson005.swift; sourceTree = "<group>"; };
 		47A5F82E2110524E00F0025E /* 链表Dummy节点和尾插法及快行指针.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表Dummy节点和尾插法及快行指针.md"; sourceTree = "<group>"; };
+		47A5F82F21106AA900F0025E /* 栈和队列.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "栈和队列.md"; sourceTree = "<group>"; };
+		47A5F83021106AC200F0025E /* StackAndQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAndQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +251,8 @@
 		47A5F7D6210EBA5200F0025E /* Lesson 006 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F82F21106AA900F0025E /* 栈和队列.md */,
+				47A5F83021106AC200F0025E /* StackAndQueue.swift */,
 			);
 			path = "Lesson 006";
 			sourceTree = "<group>";
@@ -826,6 +831,7 @@
 			files = (
 				47A5F825210EBEE800F0025E /* Lesson002.swift in Sources */,
 				47A5F82D2110520D00F0025E /* Lesson005.swift in Sources */,
+				47A5F83121106AC200F0025E /* StackAndQueue.swift in Sources */,
 				47A5F82B2110465900F0025E /* Lesson004.swift in Sources */,
 				47A5F822210EBE0500F0025E /* Lesson001.swift in Sources */,
 				47A5F7C5210EB99500F0025E /* main.swift in Sources */,
