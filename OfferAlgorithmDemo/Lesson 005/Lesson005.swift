@@ -146,6 +146,4 @@ class List {
         return dummy.next
     }
     
-    
-    
 }

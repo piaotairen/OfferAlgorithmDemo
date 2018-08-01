@@ -57,6 +57,34 @@ struct IntStack: Stack {
     }
 }
 
+/// 遵循Stack协议的Any数据类型的栈
+struct AnyStack: Stack {
+
+    typealias Element = Any
+    
+    private var stack = [Element]()
+    
+    var isEmpty: Bool {
+        return stack.isEmpty
+    }
+    
+    var size: Int {
+        return stack.count
+    }
+    
+    var peek: Any? {
+        return stack.last
+    }
+    
+    mutating func push(_ newElement: Any) {
+        stack.append(newElement)
+    }
+    
+    mutating func pop() -> Any? {
+        return stack.popLast()
+    }
+}
+
 /// 队列是先进先出的结构，关注：enqueue、dequeue、isEmpty、peek、size
 protocol Queue {
     
@@ -113,18 +141,52 @@ struct IntQueue: Queue {
     }
 }
 
+/// 遵循Queue协议的Any类型的队列
+struct AnyQueue: Queue {
+    
+    typealias Element = Any
+    
+    private var left = [Element]()
+    
+    private var right = [Element]()
+    
+    var isEmpty: Bool {
+        return left.isEmpty && right.isEmpty
+    }
+    
+    var size: Int {
+        return left.count + right.count
+    }
+    
+    var peek: Any? {
+        return left.isEmpty ? right.first : left.last
+    }
+    
+    mutating func enqueue(_ newElement: Any) {
+        right.append(newElement)
+    }
+    
+    mutating func dequeue() -> Any? {
+        if left.isEmpty {
+            left = right.reversed()
+            right.removeAll()
+        }
+        return left.popLast()
+    }
+}
+
 /// 用栈实现队列
 struct MyQueue {
     
-    var stackA: IntStack
+    var stackA: AnyStack
     
-    var stackB: IntStack
+    var stackB: AnyStack
     
     var isEmpty: Bool {
         return stackA.isEmpty && stackB.isEmpty
     }
     
-    var peek: Int? {
+    var peek: Any? {
         mutating get {
             shift()
             return stackB.peek
@@ -138,15 +200,15 @@ struct MyQueue {
     }
     
     init() {
-        stackA = IntStack()
-        stackB = IntStack()
+        stackA = AnyStack()
+        stackB = AnyStack()
     }
     
-    mutating func enqueue(object: Int) {
+    mutating func enqueue(object: Any) {
         stackA.push(object)
     }
     
-    mutating func dequeue() -> Int? {
+    mutating func dequeue() -> Any? {
         shift()
         return stackB.pop()
     }
@@ -163,20 +225,20 @@ struct MyQueue {
 /// 用队列实现栈
 struct MyStack {
     
-    var queueA: IntQueue
+    var queueA: AnyQueue
     
-    var queueB: IntQueue
+    var queueB: AnyQueue
     
     init() {
-        queueA = IntQueue()
-        queueB = IntQueue()
+        queueA = AnyQueue()
+        queueB = AnyQueue()
     }
     
     var isEmpty: Bool {
         return queueA.isEmpty && queueB.isEmpty
     }
     
-    var peek: Int? {
+    var peek: Any? {
         mutating get {
             shift()
             let peekObj = queueA.peek
@@ -190,11 +252,11 @@ struct MyStack {
         return queueA.size
     }
     
-    mutating func push(object: Int) {
+    mutating func push(object: Any) {
         queueA.enqueue(object)
     }
     
-    mutating func pop() -> Int? {
+    mutating func pop() -> Any? {
         shift()
         let popObject = queueA.dequeue()
         swap()

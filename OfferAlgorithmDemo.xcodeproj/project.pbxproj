@@ -14,6 +14,20 @@
 		47A5F82B2110465900F0025E /* Lesson004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F82A2110465900F0025E /* Lesson004.swift */; };
 		47A5F82D2110520D00F0025E /* Lesson005.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F82C2110520D00F0025E /* Lesson005.swift */; };
 		47A5F83121106AC200F0025E /* StackAndQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F83021106AC200F0025E /* StackAndQueue.swift */; };
+		47A5F83321114C2A00F0025E /* Lesson007.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F83221114C2A00F0025E /* Lesson007.swift */; };
+		47A5F84F21117FDE00F0025E /* Lesson008.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F84E21117FDE00F0025E /* Lesson008.swift */; };
+		47A5F85221117FE700F0025E /* Lesson010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F85121117FE700F0025E /* Lesson010.swift */; };
+		47A5F85521117FF000F0025E /* Lesson011.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F85421117FF000F0025E /* Lesson011.swift */; };
+		47A5F85821117FFA00F0025E /* Lesson012.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F85721117FFA00F0025E /* Lesson012.swift */; };
+		47A5F85B2111800200F0025E /* Lesson013.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F85A2111800200F0025E /* Lesson013.swift */; };
+		47A5F85E2111800600F0025E /* Lesson014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F85D2111800600F0025E /* Lesson014.swift */; };
+		47A5F8612111801500F0025E /* Lesson015.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F8602111801500F0025E /* Lesson015.swift */; };
+		47A5F8642111801900F0025E /* Lesson016.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F8632111801900F0025E /* Lesson016.swift */; };
+		47A5F8672111801F00F0025E /* Lesson017.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F8662111801F00F0025E /* Lesson017.swift */; };
+		47A5F86A2111802300F0025E /* Lesson018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F8692111802300F0025E /* Lesson018.swift */; };
+		47A5F86D2111802700F0025E /* Lesson019.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F86C2111802700F0025E /* Lesson019.swift */; };
+		47A5F8702111802C00F0025E /* Lesson020.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F86F2111802B00F0025E /* Lesson020.swift */; };
+		47A5F8742111808400F0025E /* Lesson009.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F8732111808400F0025E /* Lesson009.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +57,34 @@
 		47A5F82E2110524E00F0025E /* 链表Dummy节点和尾插法及快行指针.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表Dummy节点和尾插法及快行指针.md"; sourceTree = "<group>"; };
 		47A5F82F21106AA900F0025E /* 栈和队列.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "栈和队列.md"; sourceTree = "<group>"; };
 		47A5F83021106AC200F0025E /* StackAndQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAndQueue.swift; sourceTree = "<group>"; };
+		47A5F83221114C2A00F0025E /* Lesson007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson007.swift; sourceTree = "<group>"; };
+		47A5F83421114C3F00F0025E /* 在iOS中展示二叉树.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "在iOS中展示二叉树.md"; sourceTree = "<group>"; };
+		47A5F84E21117FDE00F0025E /* Lesson008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson008.swift; sourceTree = "<group>"; };
+		47A5F85021117FE700F0025E /* 排序面试实战.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "排序面试实战.md"; sourceTree = "<group>"; };
+		47A5F85121117FE700F0025E /* Lesson010.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson010.swift; sourceTree = "<group>"; };
+		47A5F85321117FF000F0025E /* 搜索实战.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "搜索实战.md"; sourceTree = "<group>"; };
+		47A5F85421117FF000F0025E /* Lesson011.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson011.swift; sourceTree = "<group>"; };
+		47A5F85621117FFA00F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F85721117FFA00F0025E /* Lesson012.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson012.swift; sourceTree = "<group>"; };
+		47A5F8592111800200F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F85A2111800200F0025E /* Lesson013.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson013.swift; sourceTree = "<group>"; };
+		47A5F85C2111800600F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F85D2111800600F0025E /* Lesson014.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson014.swift; sourceTree = "<group>"; };
+		47A5F85F2111801500F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F8602111801500F0025E /* Lesson015.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson015.swift; sourceTree = "<group>"; };
+		47A5F8622111801900F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F8632111801900F0025E /* Lesson016.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson016.swift; sourceTree = "<group>"; };
+		47A5F8652111801F00F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F8662111801F00F0025E /* Lesson017.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson017.swift; sourceTree = "<group>"; };
+		47A5F8682111802300F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F8692111802300F0025E /* Lesson018.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson018.swift; sourceTree = "<group>"; };
+		47A5F86B2111802700F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F86C2111802700F0025E /* Lesson019.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson019.swift; sourceTree = "<group>"; };
+		47A5F86E2111802B00F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F86F2111802B00F0025E /* Lesson020.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson020.swift; sourceTree = "<group>"; };
+		47A5F8712111807300F0025E /* 排序和搜索.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "排序和搜索.md"; sourceTree = "<group>"; };
+		47A5F8722111808400F0025E /* 二分搜索.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "二分搜索.md"; sourceTree = "<group>"; };
+		47A5F8732111808400F0025E /* Lesson009.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson009.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +237,8 @@
 		47A5F7CE210EBA4000F0025E /* Lesson 014 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F85D2111800600F0025E /* Lesson014.swift */,
+				47A5F85C2111800600F0025E /* XX.md */,
 			);
 			path = "Lesson 014";
 			sourceTree = "<group>";
@@ -202,6 +246,8 @@
 		47A5F7CF210EBA4200F0025E /* Lesson 013 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F85A2111800200F0025E /* Lesson013.swift */,
+				47A5F8592111800200F0025E /* XX.md */,
 			);
 			path = "Lesson 013";
 			sourceTree = "<group>";
@@ -209,6 +255,8 @@
 		47A5F7D0210EBA4400F0025E /* Lesson 012 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F85721117FFA00F0025E /* Lesson012.swift */,
+				47A5F85621117FFA00F0025E /* XX.md */,
 			);
 			path = "Lesson 012";
 			sourceTree = "<group>";
@@ -216,6 +264,8 @@
 		47A5F7D1210EBA4600F0025E /* Lesson 011 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F85421117FF000F0025E /* Lesson011.swift */,
+				47A5F85321117FF000F0025E /* 搜索实战.md */,
 			);
 			path = "Lesson 011";
 			sourceTree = "<group>";
@@ -223,6 +273,8 @@
 		47A5F7D2210EBA4800F0025E /* Lesson 010 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F85121117FE700F0025E /* Lesson010.swift */,
+				47A5F85021117FE700F0025E /* 排序面试实战.md */,
 			);
 			path = "Lesson 010";
 			sourceTree = "<group>";
@@ -230,6 +282,8 @@
 		47A5F7D3210EBA4A00F0025E /* Lesson 009 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F8732111808400F0025E /* Lesson009.swift */,
+				47A5F8722111808400F0025E /* 二分搜索.md */,
 			);
 			path = "Lesson 009";
 			sourceTree = "<group>";
@@ -237,6 +291,8 @@
 		47A5F7D4210EBA4C00F0025E /* Lesson 008 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F8712111807300F0025E /* 排序和搜索.md */,
+				47A5F84E21117FDE00F0025E /* Lesson008.swift */,
 			);
 			path = "Lesson 008";
 			sourceTree = "<group>";
@@ -244,6 +300,8 @@
 		47A5F7D5210EBA4F00F0025E /* Lesson 007 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F83421114C3F00F0025E /* 在iOS中展示二叉树.md */,
+				47A5F83221114C2A00F0025E /* Lesson007.swift */,
 			);
 			path = "Lesson 007";
 			sourceTree = "<group>";
@@ -278,6 +336,8 @@
 		47A5F7D9210EBAAF00F0025E /* Lesson 015 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F8602111801500F0025E /* Lesson015.swift */,
+				47A5F85F2111801500F0025E /* XX.md */,
 			);
 			path = "Lesson 015";
 			sourceTree = "<group>";
@@ -285,6 +345,8 @@
 		47A5F7DA210EBAB200F0025E /* Lesson 016 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F8632111801900F0025E /* Lesson016.swift */,
+				47A5F8622111801900F0025E /* XX.md */,
 			);
 			path = "Lesson 016";
 			sourceTree = "<group>";
@@ -292,6 +354,8 @@
 		47A5F7DB210EBAB400F0025E /* Lesson 017 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F8662111801F00F0025E /* Lesson017.swift */,
+				47A5F8652111801F00F0025E /* XX.md */,
 			);
 			path = "Lesson 017";
 			sourceTree = "<group>";
@@ -299,6 +363,8 @@
 		47A5F7DC210EBAB700F0025E /* Lesson 018 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F8692111802300F0025E /* Lesson018.swift */,
+				47A5F8682111802300F0025E /* XX.md */,
 			);
 			path = "Lesson 018";
 			sourceTree = "<group>";
@@ -306,6 +372,8 @@
 		47A5F7DD210EBAB900F0025E /* Lesson 019 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F86C2111802700F0025E /* Lesson019.swift */,
+				47A5F86B2111802700F0025E /* XX.md */,
 			);
 			path = "Lesson 019";
 			sourceTree = "<group>";
@@ -313,6 +381,8 @@
 		47A5F7DE210EBABB00F0025E /* Lesson 020 */ = {
 			isa = PBXGroup;
 			children = (
+				47A5F86F2111802B00F0025E /* Lesson020.swift */,
+				47A5F86E2111802B00F0025E /* XX.md */,
 			);
 			path = "Lesson 020";
 			sourceTree = "<group>";
@@ -833,8 +903,22 @@
 				47A5F82D2110520D00F0025E /* Lesson005.swift in Sources */,
 				47A5F83121106AC200F0025E /* StackAndQueue.swift in Sources */,
 				47A5F82B2110465900F0025E /* Lesson004.swift in Sources */,
+				47A5F86A2111802300F0025E /* Lesson018.swift in Sources */,
+				47A5F8672111801F00F0025E /* Lesson017.swift in Sources */,
 				47A5F822210EBE0500F0025E /* Lesson001.swift in Sources */,
+				47A5F8742111808400F0025E /* Lesson009.swift in Sources */,
+				47A5F8702111802C00F0025E /* Lesson020.swift in Sources */,
+				47A5F85B2111800200F0025E /* Lesson013.swift in Sources */,
+				47A5F8612111801500F0025E /* Lesson015.swift in Sources */,
+				47A5F8642111801900F0025E /* Lesson016.swift in Sources */,
+				47A5F85E2111800600F0025E /* Lesson014.swift in Sources */,
+				47A5F85821117FFA00F0025E /* Lesson012.swift in Sources */,
+				47A5F85521117FF000F0025E /* Lesson011.swift in Sources */,
+				47A5F85221117FE700F0025E /* Lesson010.swift in Sources */,
+				47A5F84F21117FDE00F0025E /* Lesson008.swift in Sources */,
+				47A5F83321114C2A00F0025E /* Lesson007.swift in Sources */,
 				47A5F7C5210EB99500F0025E /* main.swift in Sources */,
+				47A5F86D2111802700F0025E /* Lesson019.swift in Sources */,
 				47A5F828210EBEF400F0025E /* Lesson003.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
