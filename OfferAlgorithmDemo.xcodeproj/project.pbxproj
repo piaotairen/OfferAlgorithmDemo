@@ -64,7 +64,7 @@
 		47A5F85121117FE700F0025E /* Lesson010.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson010.swift; sourceTree = "<group>"; };
 		47A5F85321117FF000F0025E /* 搜索实战.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "搜索实战.md"; sourceTree = "<group>"; };
 		47A5F85421117FF000F0025E /* Lesson011.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson011.swift; sourceTree = "<group>"; };
-		47A5F85621117FFA00F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F85621117FFA00F0025E /* 新闻Feed排序.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "新闻Feed排序.md"; sourceTree = "<group>"; };
 		47A5F85721117FFA00F0025E /* Lesson012.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson012.swift; sourceTree = "<group>"; };
 		47A5F8592111800200F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
 		47A5F85A2111800200F0025E /* Lesson013.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson013.swift; sourceTree = "<group>"; };
@@ -256,7 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				47A5F85721117FFA00F0025E /* Lesson012.swift */,
-				47A5F85621117FFA00F0025E /* XX.md */,
+				47A5F85621117FFA00F0025E /* 新闻Feed排序.md */,
 			);
 			path = "Lesson 012";
 			sourceTree = "<group>";

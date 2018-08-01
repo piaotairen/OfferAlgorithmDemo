@@ -15,3 +15,5 @@ Lesson002.test()
 Lesson006.test()
 
 mergeSortTest()
+
+newsSearchTest()
