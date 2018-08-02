@@ -17,3 +17,5 @@ Lesson006.test()
 mergeSortTest()
 
 newsSearchTest()
+
+FibTest()
