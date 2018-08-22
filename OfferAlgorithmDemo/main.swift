@@ -19,3 +19,5 @@ mergeSortTest()
 newsSearchTest()
 
 FibTest()
+
+classicSort()
