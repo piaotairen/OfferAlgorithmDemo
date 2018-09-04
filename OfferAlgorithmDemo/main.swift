@@ -21,3 +21,8 @@ newsSearchTest()
 FibTest()
 
 classicSort()
+
+let word1 = "helloyyh"
+let word2 = "lloy"
+let length = Lesson017.minDistance(word1: word1, word2: word2)
+print("\(word1) 和 \(word2) 距离为 \(length)")
