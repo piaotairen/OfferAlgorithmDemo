@@ -76,9 +76,9 @@
 		47A5F8632111801900F0025E /* Lesson016.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson016.swift; sourceTree = "<group>"; };
 		47A5F8652111801F00F0025E /* 两个字符串上的删除操作.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "两个字符串上的删除操作.md"; sourceTree = "<group>"; };
 		47A5F8662111801F00F0025E /* Lesson017.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson017.swift; sourceTree = "<group>"; };
-		47A5F8682111802300F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F8682111802300F0025E /* 双向链表操作.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "双向链表操作.md"; sourceTree = "<group>"; };
 		47A5F8692111802300F0025E /* Lesson018.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson018.swift; sourceTree = "<group>"; };
-		47A5F86B2111802700F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F86B2111802700F0025E /* 反转二叉树.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "反转二叉树.md"; sourceTree = "<group>"; };
 		47A5F86C2111802700F0025E /* Lesson019.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson019.swift; sourceTree = "<group>"; };
 		47A5F86E2111802B00F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
 		47A5F86F2111802B00F0025E /* Lesson020.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson020.swift; sourceTree = "<group>"; };
@@ -364,7 +364,7 @@
 			isa = PBXGroup;
 			children = (
 				47A5F8692111802300F0025E /* Lesson018.swift */,
-				47A5F8682111802300F0025E /* XX.md */,
+				47A5F8682111802300F0025E /* 双向链表操作.md */,
 			);
 			path = "Lesson 018";
 			sourceTree = "<group>";
@@ -373,7 +373,7 @@
 			isa = PBXGroup;
 			children = (
 				47A5F86C2111802700F0025E /* Lesson019.swift */,
-				47A5F86B2111802700F0025E /* XX.md */,
+				47A5F86B2111802700F0025E /* 反转二叉树.md */,
 			);
 			path = "Lesson 019";
 			sourceTree = "<group>";
