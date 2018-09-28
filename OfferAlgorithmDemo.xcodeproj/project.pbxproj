@@ -80,7 +80,7 @@
 		47A5F8692111802300F0025E /* Lesson018.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson018.swift; sourceTree = "<group>"; };
 		47A5F86B2111802700F0025E /* 反转二叉树.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "反转二叉树.md"; sourceTree = "<group>"; };
 		47A5F86C2111802700F0025E /* Lesson019.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson019.swift; sourceTree = "<group>"; };
-		47A5F86E2111802B00F0025E /* XX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = XX.md; sourceTree = "<group>"; };
+		47A5F86E2111802B00F0025E /* 钱币组合.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "钱币组合.md"; sourceTree = "<group>"; };
 		47A5F86F2111802B00F0025E /* Lesson020.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson020.swift; sourceTree = "<group>"; };
 		47A5F8712111807300F0025E /* 排序和搜索.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "排序和搜索.md"; sourceTree = "<group>"; };
 		47A5F8722111808400F0025E /* 二分搜索.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "二分搜索.md"; sourceTree = "<group>"; };
@@ -382,7 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				47A5F86F2111802B00F0025E /* Lesson020.swift */,
-				47A5F86E2111802B00F0025E /* XX.md */,
+				47A5F86E2111802B00F0025E /* 钱币组合.md */,
 			);
 			path = "Lesson 020";
 			sourceTree = "<group>";
